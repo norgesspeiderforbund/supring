@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Admin supring</title>
+</head>
+<body>
+    <h1>Supring Roverforum 2020</h1>
+    <input type="text" placeholder="##" name="delegatnr" id="delegatnr" autocomplete="off">
+    <button onclick="send()" id="delnr">Send (enter)</button>
+    <p id="viser" class="hidden">Alt ok. Viser på skjerm...</p>
+    <p id="ikkeviser" class="hidden">Fant ikke delegat :(</p>
+    <script>
+        function send() {
+            if(document.getElementById("delegatnr").value == '') return;
+
+            fetch("api.php?func=write&delegatnr=" + document.getElementById("delegatnr").value).then((s) => s.json()).then((res) => {
+                if(res){
+                    document.getElementById("viser").classList = '';
+                    setTimeout(()=> {
+                        document.getElementById("viser").classList = 'hidden';
+                    }, 2000);
+                }else{
+                    document.getElementById("ikkeviser").classList = '';
+                    setTimeout(()=> {
+                        document.getElementById("ikkeviser").classList = 'hidden';
+                    }, 2000);
+                }
+                document.getElementById("delegatnr").value = "";
+            });
+        }
+
+        document.getElementById("delegatnr").addEventListener("keydown", event => {
+            if(event.keyCode == 13){
+                send();
+            }
+        });
+
+        document.addEventListener("focus", event => {
+            document.getElementById("delegatnr").focus();
+        });
+        
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supring Roverforum 2020</title>
+    <style>
+        @font-face {
+            font-family: "DINOT";
+            src: url("dinot.otf");
+        }
+        * {
+            font-family: "DINOT", sans-serif;
+            box-sizing: border-box;
+        }
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0,0,0,0);
+        }
+        .image {
+            height: 600px;
+        }
+        .text {
+            position: absolute;
+            bottom: 50px;
+            left: 185px;
+
+        }
+        span {
+            display: block;
+        }
+        .navn {
+            font-size: 35px;
+            margin-bottom: 7px;
+        }
+        .container {
+            contain: content;
+            transition: .8s transform ease-in-out;
+            left: 0;
+        }
+        .hidden {
+            transform: translateX(-1000px);
+        }
+    </style>
+    <script>
+        function getUpdate() {
+            fetch('api.php?func=read').then((s) => s.json()).then((supring) => {
+                if(supring.ny){
+                    console.log(supring);
+                    document.getElementById("navn").innerHTML = supring.navn;
+                    document.getElementById("krets").innerHTML = supring.krets;
+                    document.getElementById("container").classList = ['container'];
+                    setTimeout(() => {
+                        document.getElementById("container").classList = ['container hidden'];
+                    }, 7000);
+                }   
+            });
+        }
+
+        setInterval(getUpdate, 1000);
+    </script>
+</head>
+<body>
+    <div class="container" id="container">
+        <img src="roverforum.png" class="image">
+        <div class="text">
+            <span class="navn" id="navn">Test Testesen</span>
+            <span class="krets" id="krets">Representant, Øvre Vestre Viken krets</span>
+        </div>
+    </div>
+</body>
+</html>
