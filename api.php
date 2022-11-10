@@ -19,7 +19,8 @@ $alle_delegater = explode("\n", $alle_delegater);
 foreach($alle_delegater as $delegat){
     $info = explode(';', $delegat);
     if($info[0] == $delegatnr){
-        file_put_contents('vis.json', json_encode(['ny' => true, 'navn' => $info[1], 'krets' => $info[2]]));
+        if($delegatnr>130) $delegatnr = ''; // GJELDER KUN FOR SPEIDERTINGET 2022
+        file_put_contents('vis.json', json_encode(['ny' => true, 'navn' => $info[1], 'krets' => $info[2], 'delegatnummer' => $delegatnr]));
         die(json_encode(true));
     }
 }

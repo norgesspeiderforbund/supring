@@ -1,69 +1,162 @@
-﻿Representanter til Roverforum 2020;;
-;;
-;;
-1;Ole Kristian Lona Moa;Prosjektgruppa
-2;Tuva Moholdt;Prosjektgruppa
-3;Sindre Aune;Prosjektgruppa
-4;Oda Emilie Larsen;Prosjektgruppa
-5;Oliver Nystøl Karlsen;Aust-Agder krets
-6;x;Aust-Agder krets
-7;Simen Nybro;Follo krets
-8;Hege Ankarstrand;Follo krets
-9;Thomas E. Gundersen;Fredrikstad krets
-10;Sturla Skjulhaug Storemyr;Fredrikstad krets
-11;Jørgen Gjedtjernet;Glåmdal krets
-12;Bjørn Mastad;Glåmdal krets
-13;Guri E. Forsberg;Grenland krets
-14;Alexander Følgesvold;Grenland krets
-15;Jo Albertsen;Gudbrandsdal krets
-16;x;Gudbrandsdal krets
-17;Marte Emilie Nordby Mellum;Hedmark krets
-18;x;Hedmark krets
-19;x;Hordaland krins
-20;x;Hordaland krins
-21;Sigurd Berg;Hålogaland krets
-22;Mia Strøm;Hålogaland krets
-23;Markus Fagerholt;Nord-Troms krets
-24;x;Nord-Troms krets
-25;x;Oslospeiderne
-26;x;Oslospeiderne
-27;Elise Gjestad;Romerike krets
-28;Åse Ragnhild Øvreness;Romerike krets
-29;Arnstein Lystad Johnsen;Romsdal og Nordmøre krets
-30;Aud Solveig Eiken Nødtvedt;Romsdal og Nordmøre krets
-31;Øyvind Gulliksen;Ryvarden krets
-32;Jakob Løve;Ryvarden krets
-33;Synne Ødegaard;Salten og Helgeland krets
-34;Eli Synnøve Asphjell;Salten og Helgeland krets
-35;Sigurd Stenstadvold;Sogn og Fjordane krets
-36;x;Sogn og Fjordane krets
-37;Emma Stueflotten;Sunnmøre krets
-38;x;Sunnmøre krets
-39;Tordis Drivenes;Sørlandet krets
-40;Olav Hagestad Nag;Sørlandet krets
-41;Marte K. Johansen;Tele-Busk krets
-42;Erlend Lunde;Tele-Busk krets
-43;Aasne Troøien;Trøndelag krets
-44;Viljar Øydvin;Trøndelag krets
-45;x;Vesterlen krets
-46;Marcus Hamre;Vesterlen krets
-47;Signe Skog Bjelland;Vestfold krets
-48;Sverre Husby Sundsdal;Vestfold krets
-49;Ida Haukedal;Vestmarka krets
-50;Sverre Strand;Vestmarka krets
-51;Ina Maria Berrefjord;Vestoppland krets
-52;Jens Nickelsen;Vestoppland krets
-53;Simen Nordli Thygesen;Østre Østfold krets
-54;Liv Agneta Trobe;Østre Østfold krets
-55;Aleksander Eriksen Saastad;Øvre Buskerud krets
-56;Bertine Jensen;Øvre Buskerud krets
-57;Jonas Tretteteig;Frelsesarmeens speidere
-58;x;Frelsesarmeens speidere
-59;Anna Larsen Rossvang;Frikirkens speiderkorps
-60;x;Frikirkens speiderkorps
-61;x;Blå Kors speidere
-62;x;Blå Kors speidere
-63;Eirik Nicolai Stark Andersen;Metodistkirkens speiderkorps
-64;William Jæger;Metodistkirkens speiderkorps
-65;Karoline Samuelsen;Misjonskirken speiderkorps
-66;x;Misjonskirken speiderkorps
+0;Ingen;
+1;Håvard Djupvik;Speidersjef
+2;Birgitte Schiøll Heneide;Visespeidersjef
+3;Peer-Johan Ødegaard;Medlem Av Speiderstyret
+4;Eirik Ulltang Birkeland;Medlem Av Speiderstyret
+5;Ane Nørstebø Laache;Medlem Av Speiderstyret
+6;Silje Kroken;Medlem Av Speiderstyret
+7;Svein Harald Gunnes;Medlem Av Speiderstyret
+8;Cecilie Opdahl Hanseth;Representant, Forbundskontoret
+9;Oda Emilie Larsen;Ansattrepresentant, Forbundskontoret
+10;Leif Robert Hammer Arntsen;Representant, Aust-Agder krets
+11;Hanne Lybekk;Representant, Aust-Agder krets
+12;Even Karlsen;Representant, Aust-Agder krets
+13;Benjamin Taftesund;Kretsleder/Representant, Follo krets
+14;Martha Hagbø;Representant, Follo krets
+15;Ingrid Lycke;Representant, Follo krets
+16;Peik Næsje;Representant, Follo krets
+17;Viktor Kalliainen;Representant, Follo krets
+18;Henning Ytterstad;Representant, Fredrikstad krets
+19;Karianne Tangen Dypedahl;Representant, Fredrikstad krets
+20;Kristoffer Holt Iversen;Representant, Fredrikstad krets
+21;Hans Eide;Representant, Grenland krets
+22;Anja Gustavsen;Representant, Grenland krets
+23;Karoline Syversen;Representant, Grenland krets
+24;Øyvind Danielsen;Representant, Grenland krets
+25;Eli-Brit Ytterstad Holen;Representant, Gudbrandsdal krets
+26;Rita Tangen;Representant, Gudbrandsdal krets
+27;Ruth Inger Teppen;Representant, Hedmark krets
+28;Martin Dæhlin Kristiansen;Representant, Hedmark krets
+29;May Irene A. Løseth;Representant, Hedmark krets
+30;Kristine Mæland;Representant, Hordaland krins
+31;Magnus Skulstad;Representant, Hordaland krins
+32;Ingrid Algerøy;Representant, Hordaland krins
+33;Hogne Skistad Nordvik;Representant, Hordaland krins
+34;Katarina Myhre Jensen;Representant, Hordaland krins
+35;Ann Kristin Hadsel;Representant, Hordaland krins
+36;Helga Solvold-Perander;Representant, Hålogaland krets
+37;Ann-Katrin Grimstad;Representant, Hålogaland krets
+38;Markus Fagerholt;Representant, Nord-Troms krets
+40;Iver Aage Iversen;Representant, Oslospeiderne
+41;Kasper Storm Hanssen;Representant, Oslospeiderne
+42;Sander Osvik Brekke;Representant, Oslospeiderne
+43;Sissel-Margrethe Mejland;Representant, Oslospeiderne
+44;Sandra Carina Lystad;Representant, Oslospeiderne
+45;Marcus Gjermundshaug;Representant, Romerike krets
+46;Astrid Helene Rossow;Representant, Romerike krets
+47;Thea Silverflod Eriksen;Representant, Romerike krets
+48;Anders Kringberg;Representant, Romerike krets
+49;Thomas Strand;Representant, Romerike krets
+50;Dag Erling Austvik;Representant, Romsdal og Nordmøre krets
+51;Petter Holsbø Angvik;Representant, Romsdal og Nordmøre krets
+52;Linn Kaspersen;Representant, Romsdal og Nordmøre krets
+53;Marius Johannessen;Representant, Ryvarden krets
+54;Helene Stokke;Representant, Ryvarden krets
+55;Magnus Matre Aronsen;Representant, Ryvarden krets
+56;Anna Tveit;Representant, Ryvarden krets
+57;Ole Kristian L. Ringstad;Representant, Salten og Helgeland krets
+58;Kristin Hurthi;Representant, Salten og Helgeland krets
+59;Sigurd Stenstadvold;Representant, Sogn og Fjordane krets
+60;Sigurd Hovden;Representant, Sogn og Fjordane krets
+61;Ole Einar K. Alstadsæter;Representant, Sunnmøre krets
+62;Marie Urkedal Samuelsen;Representant, Sunnmøre krets
+63;Geir Arnt Harbak;Representant, Sørlandet krets
+64;Sebastian Bø;Representant, Sørlandet krets
+65;Geir Fossgard Hamre;Representant, Sørlandet krets
+66;Paul Nørsett;Representant, Sørlandet krets
+67;Inger Marie Rypestøl;Representant, Sørlandet krets
+68;Tordis Drivenes;Representant, Sørlandet krets
+69;Aud Elin Lybekk;Representant, Tele-Busk krets
+70;Marte Kleiverud Johansen;Representant, Tele-Busk krets
+71;Lise Brekken;Representant, Trøndelag krets
+72;Marthe Elisabeth B. Hellum;Representant, Trøndelag krets
+74;Kristin Grønn-Hagen;Representant, Trøndelag krets
+75;Tor Børge Salvesen;Representant, Vesterlen krets
+76;Erik Haugland;Representant, Vesterlen krets
+77;Annette Kjølen G. Gillebo;Representant, Vesterlen krets
+78;Marcus Lunde Hamre;Representant, Vesterlen krets
+79;Mia Førland;Representant, Vesterlen krets
+80;Vibeke Bø Langeland;Representant, Vesterlen krets
+81;Eve Nordvall;Representant, Vesterlen krets
+82;Anita Rørheim;Representant, Vesterlen krets
+83;Johan Nordbø Visnes;Representant, Vesterlen krets
+84;Johannes Botne;Representant, Vestfold krets
+86;Thomas Lien;Representant, Vestfold krets
+87;Rune Pettersen Haukedal;Representant, Vestmarka krets
+88;Anne Margrethe Himle;Representant, Vestmarka krets
+89;Julie Iversen;Representant, Vestmarka krets
+90;Kristian Strømmen;Representant, Vestmarka krets
+92;Ragnhild Sandvold;Representant, Vestmarka krets
+94;Kim Lønstad;Representant, Vestoppland krets
+95;Ole Andreas Thirud;Representant, Vestoppland krets
+96;Thomas Francis Karlsen;Representant, Østre Østfold krets
+97;Rolf Skogheim Hansen;Representant, Østre Østfold krets
+98;Eli Kristin Bekken;Representant, Østre Østfold krets
+100;Malene Høeg;Representant, Øvre Buskerud krets
+101;Trygve Netland;Korpssjef, Blå Kors speidere
+102;Eirik Storli;Representant, Blå Kors Speidere
+103;Charlotte Gundersen Susaas;Korpssjef, Frelsesarmeens speidere
+104;Kristin Marie Berg;Representant, Frelsesarmeens speidere
+105;Håkon Ravndal;Korpsleder, Frikirkens speiderkorps
+106;Haakon Tønnessen;Representant, Frikirkens speiderkorps
+107;Signe Margrethe Ravndal;Representant, Frikirkens speiderkorps
+108;Ole Martin Andreassen;Korpsleder, Metodistkirkens speiderkorps
+109;Henrik Moum Grimstad;Representant, Metodistkirkens speiderkorps
+110;Helene Bjørsvik;Korpsleder, Misjonskirken speiderkorps
+111;Daniel Tostrup Skogaker;Representant, Misjonskirken speiderkorps
+112;Victor Fanxi Kung;Representant, Speiderforum
+113;Solveig Djupvik;Representant, Speiderforum
+114;Nikolaj Holm Østereng;Representant, Speiderforum
+115;Hans Jakob Aure;Representant, Speiderforum
+116;Oluf Aalde;Representant, Speiderforum
+117;Simen Bergset;Representant, Roverforum
+118;Maren Krokeide Ottesen;Representant, Roverforum
+119;Sander Cornelius Svendsen;Representant, Roverforum
+120;Karoline Dyve Samuelsen;Representant, Roverforum
+121;Emma Thorsen;Representant, Roverforum
+122;Stine Schultz Heireng;Generalsekretær, Norges speiderforbund
+123;Per Vinje;Lovutvalget, Norges speiderforbund
+124;Roy Arild Rugsveen;Leder Av Komite Speiding
+125;Karen Johanne Strømstad;Leder Av Eiendomskomiteen
+127;Erlend Hallstensen;Leder Av Tildelingskomiteen
+128;Knut Slettebak;Ordstyrer
+129;Christina Eide;Ordstyrer
+130;Lars Atle Andersen;Valgkomiteen
+200;Brede Udahl;Forbundskontoret
+201;Cato Bjerkeli;Arbeidsgruppe Bærekraft
+202;Katinka Oulie Rosbach;Forbundskontoret
+203;Ingrid Stene Kvist;Forbundskontoret
+204;Hilde Marie B. Haldorhamn;Forbundskontoret
+205;Birgit Helene H. Torsæter;Forbundskontoret
+206;Kirvil Kaasa;Forbundskontoret
+207;Tom Lantz;Forbundskontoret
+208;Line Aas Mjøster;Forbundskontoret
+209;Helene Bredal;Forbundskontoret
+210;Lykke Juhler;Forbundskontoret
+211;Øystein Bøhler;Leder, Nettverk For Friluftsliv
+218;Andreas Eikrem Bjørndalen;Medlem Av Komite Speiding
+219;Arnt Jorolf Øvreness;Medlem Av Komite Speiding
+220;Anders Nordby;Medlem Av Komite Speiding
+221;Karoline Omberg Often;Medlem Av Komite Speiding
+222;Ingeborg Kolstad;Medlem Av Komite Speiding
+223;Lise Karine L. Ringstad;Medlem Av Komite Speiding
+224;Benjamin A. Andersen;Medlem Av Komite Speiding
+225;Ragnhild Pihl Konstad;Observatør
+226;Elisabeth Pihl Konstad;Observatør
+227;Eva Onarheim Bergsjø;Observatør
+228;Aurora Sveijer;Observatør
+229;Hanne Eriksen;Observatør
+230;Simen Halderaker Husby;Observatør
+231;Lise Nordtug Heggeblom;Observatør
+232;Sebastian Mosby Kristiansen;Observatør
+233;Hildegunn Larssen Fjelland;Observatør
+234;Øyvind Gulliksen;Observatør
+235;Anders Øilo Marcussen;Observatør
+236;Sturla Skjulhaug Storemyr;Observatør / Kandidat Til Speiderstyret
+237;Kristian Fog;Observatør / Kandidat Til Speiderstyret
+238;Tuva Moholdt;Roverway 2024
+239;Janne Kathinka Fongen;Roverway 2024
+240;Øystein Gonsholt;Speidermuseet
+241;Svein Otto Aure;Speider-Sport
+242;Solveig Schytz;Valgkomiteen
+243;Vidar Nyløkken Hagen;Valgkomiteen

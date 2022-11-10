@@ -25,16 +25,36 @@
         }
         .text {
             position: absolute;
-            bottom: 50px;
-            left: 185px;
-
+            bottom: 45px;
+            left: 90px;
+            width: 310px;
+            text-align: center;
+            /* background: rgba(255,0,0,.4); */
+            font-weight: bold;
+        }
+        .delegatnummer {
+            position: absolute;
+            bottom: 78px;
+            font-size: 30px;
+            left: 28px;
+            width: 50px;
+            text-align: center;
+            font-weight: bold;
+            color: white;
+            /* background: rgba(255,0,0,.4); */
         }
         span {
             display: block;
         }
         .navn {
-            font-size: 35px;
-            margin-bottom: 7px;
+            font-size: 25px;
+            margin-bottom: 18px;
+            letter-spacing: -1px;
+            color: white;
+        }
+        .krets {
+            color: #081635;
+            font-size: 15px;
         }
         .container {
             contain: content;
@@ -52,6 +72,7 @@
                     console.log(supring);
                     document.getElementById("navn").innerHTML = supring.navn;
                     document.getElementById("krets").innerHTML = supring.krets;
+                    document.getElementById("delegatnummer").innerHTML = supring.delegatnummer;
                     document.getElementById("container").classList = ['container'];
                     setTimeout(() => {
                         document.getElementById("container").classList = ['container hidden'];
@@ -64,8 +85,25 @@
     </script>
 </head>
 <body>
+    <!-- <div class="saker">
+        <div class="sak">
+            <div class="saksnavn">
+                <b>Sak 1</b>: Konstituering
+            </div>
+            <div class="undersak vedtatt">
+                1.1 Valg av ordstyrer
+            </div>
+            <div class="undersak votering">
+                1.2 Valg av ordstyrer
+            </div>
+            <div class="undersak">
+                1.3 Valg av ordstyrer
+            </div>
+        </div>
+    </div> -->
     <div class="container" id="container">
-        <img src="roverforum.png" class="image">
+        <img src="supring.png" class="image">
+        <div class="delegatnummer" id="delegatnummer">1</div>
         <div class="text">
             <span class="navn" id="navn">Test Testesen</span>
             <span class="krets" id="krets">Representant, Øvre Vestre Viken krets</span>
